@@ -5,17 +5,19 @@
     <title>新規作成</title>
 </head>
 <body> 
-<div>
+<header>
     <a href="vantan-board/index.html">TOP</a>
     <a href="vantan-board/regster.php">新規作成</a>
     <a href="vantan-board/">ログイン</a>
     <a href="vantan-board/">ログアウト</a>
-</div>
+</header>
+<h1>新規作成</h1>
 <div>
     <form action="#" method="post">
-    	<p>メールアドレス<input type="email" name="email"><p>
-        <p>パスワード<input type="password" name="email"><p>
-        <p>名前<input type="text" name="name"><p>
+    	<label>メールアドレス<input type="email" name="email"><label><br/>
+        <label>パスワード<input type="password" name="password"><label><br/>
+        <label>名前<input type="text" name="name"><label><br/>
+        <input type="submit" value="新規登録">
     <form>
 </div>
 </body>
