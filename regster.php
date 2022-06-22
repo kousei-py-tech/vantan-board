@@ -6,10 +6,10 @@
 </head>
 <body> 
 <header>
-    <a href="vantan-board/index.html">TOP</a>
-    <a href="vantan-board/regster.php">新規作成</a>
-    <a href="vantan-board/">ログイン</a>
-    <a href="vantan-board/">ログアウト</a>
+    <a href="/vantan-board/index.php">TOP</a>
+    <a href="/vantan-board/regster.php">新規作成</a>
+    <a href="/vantan-board/login.php">ログイン</a>
+    <a href="/vantan-board/logout.php">ログアウト</a>
 </header>
 <h1>新規作成</h1>
 <div>
