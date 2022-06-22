@@ -14,9 +14,9 @@
 <h1>新規作成</h1>
 <div>
     <form action="#" method="post">
-    	<label>メールアドレス<input type="email" name="email"><label><br/>
-        <label>パスワード<input type="password" name="password"><label><br/>
-        <label>名前<input type="text" name="name"><label><br/>
+    	<label>メールアドレス:<input type="email" name="email"><label><br/>
+        <label>パスワード:<input type="password" name="password"><label><br/>
+        <label>名前:<input type="text" name="name"><label><br/>
         <input type="submit" value="新規登録">
     <form>
 </div>
