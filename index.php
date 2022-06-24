@@ -11,7 +11,7 @@ session_start();
 <header>
     <div>
         <a href="vantan_board/index.php">TOP</a>
-        <a href="vantan_board/register.php">新規作成</a>
+        <a href="vantan_board/regster.php">新規作成</a>
         <a href="vantan_board/login.php">ログイン</a>
         <a href="vantan_board/logout.php">ログアウト</a>
     </div>
