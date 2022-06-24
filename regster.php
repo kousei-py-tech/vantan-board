@@ -50,6 +50,7 @@ if (!empty($_POST['email']) && !empty($_POST['password']) && !empty($_POST['name
     <a href="/vantan-board/regster.php">新規作成</a>
     <a href="/vantan-board/login.php">ログイン</a>
     <a href="/vantan-board/logout.php">ログアウト</a>
+    <a href="/vantan-board/create_board.php">掲示板作成</a>
 </header>
 <h1>新規作成</h1>
 <div>

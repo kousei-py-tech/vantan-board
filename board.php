@@ -65,11 +65,11 @@
  <body>
  <header>
    <div>
-     <a href="/board/index.php">TOP</a>
-     <a href="/board/create_board.php">掲示板作成</a>
-     <a href="/board/register.php">新規作成</a>
-     <a href="/board/login.php">ログイン</a>
-     <a href="/board/logout.php">ログアウト</a>
+     <a href="/vantan-board/index.php">TOP</a>
+     <a href="/vantan-board/create_board.php">掲示板作成</a>
+     <a href="/vantan-board/register.php">新規作成</a>
+     <a href="/vantan-board/login.php">ログイン</a>
+     <a href="/vantan-board/logout.php">ログアウト</a>
    </div>
    <h1><?php echo $board['title']; ?></h1>
  </header>
@@ -87,7 +87,7 @@
          ?>
      </ul>
    </div>
-   <form action="board.php?id=<?php echo $id; ?>" method="post">
+   <form action="index.php?id=<?php echo $id; ?>" method="post">
      <label>コメント: <input type="text" name="comment"/></label><br/>
      <input type="submit" value="コメント">
    </form>
