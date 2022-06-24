@@ -20,5 +20,15 @@ session_start();
 <div>
     <?php echo "{$_SESSION['name']}さんようこそ"; ?>
 </div>
+<div>
+    <h2>掲示板一覧</h2>
+    <ul>
+    <?php
+    foreach ($boards as $board) {
+        echo "<li><a href=\"/vantan-board/board.php?id={$board['id']}\" >{$board['title']}</a></li>";
+    }
+    ?>
+    </ul>
+</div>
 </body>
 </html>
