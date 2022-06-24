@@ -46,10 +46,17 @@ if (!empty($_POST['email']) && !empty($_POST['password']) && !empty($_POST['name
 </head>
 <body> 
 <header>
-    <a href="/vantan-board/index.php">TOP</a>
-    <a href="/vantan-board/regster.php">新規作成</a>
-    <a href="/vantan-board/login.php">ログイン</a>
-    <a href="/vantan-board/logout.php">ログアウト</a>
+<<<<<<< HEAD
+    <a href="vantan-board/index.php">TOP</a>
+    <a href="vantan-board/regster.php">新規作成</a>
+    <a href="vantan-board/login.php">ログイン</a>
+    <a href="vantan-board/logout.php">ログアウト</a>
+=======
+    <a href="vantan-board/index.php">TOP</a>
+    <a href="vantan-board/regster.php">新規作成</a>
+    <a href="vantan-board/login.php">ログイン</a>
+    <a href="vantan-board/logout.php">ログアウト</a>
+>>>>>>> 42d2a9801db6563edd709258f742a49bb98b1022
 </header>
 <h1>新規作成</h1>
 <div>
