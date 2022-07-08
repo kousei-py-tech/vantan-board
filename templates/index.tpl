@@ -9,7 +9,7 @@
  <h1>トップ</h1>
  <div>{$user->name}さんようこそ</div>
  <div>
-   掲示板一覧
+   <h2>掲示板一覧</h2>
    <ul>
      {foreach from=$boardList item=board}
        <li><a href='/vantan-board/board.php?id={$board->id}'>{$board->title}）</a></li>
