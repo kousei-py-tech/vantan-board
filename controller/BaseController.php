@@ -35,6 +35,7 @@ abstract class BaseController
             // ログイン処理
             session_start();
             $email = empty($_SESSION['email']) ? '' : $_SESSION['email'];
+            var_dump($_SESSION);
             $this->user = $this->userDao->findByEmail($email);
             // ログイン必須でログインしていなかったらログインページに遷移する
             if ($this->isLogin && empty($this->user)) {
