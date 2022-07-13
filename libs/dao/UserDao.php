@@ -21,4 +21,9 @@ class UserDao extends Database
       return false;
   }
   }
+
+    public function  findByEmail($mail)
+    {
+
+    }
 } 
