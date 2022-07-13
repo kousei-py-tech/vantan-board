@@ -24,6 +24,10 @@ class UserDao extends Database
 
     public function  findByEmail($mail)
     {
-
+      $sql = 'SELECT * FROM `users` WHERE email = :email';
+        $stmt = $this->pdo->prepare($sql);
+        $stmt->bindValue(':email', $mail, PDO::PARAM_STR);
+        $stmt->execute();
+        $user = $stmt->fetch();
     }
 } 
