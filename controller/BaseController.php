@@ -24,7 +24,7 @@ abstract class BaseController
         // smartyの読み込みと定義
         $this->smarty = new Smarty();
         $this->smarty->escape_html = true;
-        $this->smarty->setTemplateDir(__DIR__ . '/../template');
+        $this->smarty->setTemplateDir(__DIR__ . '/../templates');
         $this->smarty->setCompileDir(__DIR__ . '/../template_c');
         $this->userDao = new UserDao();
     }
