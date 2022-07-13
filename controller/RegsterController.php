@@ -12,8 +12,6 @@
 
    protected function main()
       {
-         $errors = [];
-         $title = InputUtil::extractString('title', 'タイトル', $errors);
          // 掲示板情報を取得しsmarty変数に値を受け渡す
          $boardDao = new BoardDao();
          $this->smarty->assign('boardList', $boardDao->findAll());
